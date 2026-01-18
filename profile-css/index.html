@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasitpong's Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="profile-card">
+
+            <header>
+                <h1 id="name">Pasitpong's Profile</h1>
+            </header>
+
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Interests & Skills</a></li>
+                    <li><a href="#message">Send Message</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <main>
+                <hr>
+                <section id="about" class="section-content">
+                    <h2>About Me</h2>
+                    <div class="about-container">
+                        <img src="./images/68102010208.jpg" alt="My Picture" class="avatar">
+                        <p>
+                            <strong>Name:</strong> Pasitpong Srisorn<br>
+                            <strong>Age:</strong> 19<br>
+                            <strong>DOB:</strong> 26/07/2006<br>
+                            <strong>Student ID:</strong> 68102010208
+                        </p>
+                    </div>
+                </section>
+                <br>
+
+                <hr>
+
+                <section id="skills" class="section-content">
+                    <h2>Interests & Skills</h2>
+
+                    <h3>Interests</h3>
+                    <ul class="interest-list">
+                        <li>Formula 1</li>
+                        <li>Trivia</li>
+                        <li>Boardgames</li>
+                    </ul>
+
+                    <h3>Skills</h3>
+                    <div class="skills-container">
+                        <div class="skill-badge">HTML <span class="level">Beginner</span></div>
+                        <div class="skill-badge">Python <span class="level">Beginner</span></div>
+                        <div class="skill-badge">CSS <span class="level">Beginner</span></div>
+                    </div>
+                </section>
+                <br>
+
+                <hr>
+
+                <section id="message" class="section-content">
+                    <h2>Send me a message</h2>
+                    <form action="#" method="POST" class="contact-form">
+                        <div>
+                            <label for="name">Your Name:</label>
+                            <input type="text" id="name" name="user_name" required>
+                        </div>
+                        <div>
+                            <label for="topic">Topic:</label>
+                            <select id="topic" name="topic">
+                                <option value="general">General</option>
+                                <option value="work">Work</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="user_message" rows="4"></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </section>
+                <br>
+            </main>
+
+            <hr>
+
+            <footer>
+                <section id="contact">
+                    <h2>Contact Me</h2>
+                    <p>
+                        <strong>Gmail: </strong> pasitpong4529@gmail.com<br>
+                        <strong>Phone: </strong>095-702-4279 <br>
+                        <strong>Facebook: </strong> <a href="https://www.facebook.com/pentor.srisorn/" target="_blank" class="social-link">Pentor Srisorn</a>
+                    </p>
+                </section>
+            </footer>
+        </div>
+    </div>
+
+</body>
+</html>
